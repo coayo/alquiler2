@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/cice_logo"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="@dimen/activity_vertical_margin" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="131dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/imageButtonAlta" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_rotate"
+            android:id="@+id/imageButtonEntrega" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_mapmode"
+            android:id="@+id/imageButtonLoc" />
+    </LinearLayout>
+
+
+</LinearLayout>
